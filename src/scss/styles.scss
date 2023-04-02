@@ -1,1 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  height: 100vh;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.section-link img {
+ width: 40px;
+}
