@@ -16,6 +16,10 @@ header {
   margin-bottom: 50px;
 }
 
-.section-link img {
- width: 40px;
+.section-link a {
+  color: #764b36;
+
+  &:hover {
+    color: #9B4922
+  }
 }
